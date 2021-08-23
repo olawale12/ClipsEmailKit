@@ -3,9 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Company>Eclipsoft</Company>
-    <Authors>Olawale</Authors>
+    <Authors>Olawale Omotosho</Authors>
     <Description>this library is to send email to any email adress</Description>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/olawale12/ClipsEmailKit</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/olawale12/ClipsEmailKit</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>Email</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
