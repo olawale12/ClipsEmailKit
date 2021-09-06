@@ -18,18 +18,18 @@ namespace ClipsEmailKit
 
         }
 
-        public void SendEmail(Message message, string body)
+        public void SendEmail(Message message, string body, bool sslStatus = true)
         {
             var emailMessage = CreateMailMessage(message, body);
 
-            Send(emailMessage);
+            Send(emailMessage, sslStatus);
         }
 
-        public async Task SendEmailAsyn(Message message, string body)
+        public async Task SendEmailAsyn(Message message, string body, bool sslStatus = true)
         {
             var emailMessage = CreateMailMessage(message, body);
 
-            await SendAync(emailMessage);
+            await SendAync(emailMessage, sslStatus);
         }
 
 

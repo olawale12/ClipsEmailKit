@@ -10,6 +10,7 @@
     <RepositoryUrl>https://github.com/olawale12/ClipsEmailKit</RepositoryUrl>
     <RepositoryType>Github</RepositoryType>
     <PackageTags>Email</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

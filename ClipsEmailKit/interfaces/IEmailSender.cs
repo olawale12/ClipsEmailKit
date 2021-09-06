@@ -7,7 +7,7 @@ namespace ClipsEmailKit.interfaces
 {
     public interface IEmailSender
     {
-        Task SendEmailAsyn(Message message, string body);
-        void SendEmail(Message message, string body);
+        Task SendEmailAsyn(Message message, string body, bool sslStatus = true);
+        void SendEmail(Message message, string body, bool sslStatus = true);
     }
 }
